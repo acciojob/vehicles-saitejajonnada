@@ -2,8 +2,8 @@ package com.driver;
 
 public interface WaterVehicle 
 {
-    private String getVehicleName();
-    private int getVehicleCapacity();
+    String getVehicleName();
+    int getVehicleCapacity();
 }
 // Implementing the Boat class
 public class Boat implements WaterVehicle 
